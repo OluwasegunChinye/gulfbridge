@@ -21,10 +21,69 @@
            <img class="icons" src="../assets/facebook-f-brands.svg" alt="" srcset="">
            <img  class="icons" src="../assets/instagram-brands.svg" alt="" srcset="">
           <a href=""><img  class="icons" src="../assets/linkedin-in-brands.svg" alt="" srcset=""></a> 
+          <a href=""><img  class="icons" src="../assets/medium-m-brands.svg" alt="" srcset=""></a>
       </div>
     </div>
-    <div class="container-two"></div>
-  
+    <div class="container-two">
+      <div class="about-us">
+        <h3>ABOUT US</h3>
+        <p>Gulfbridge Consulting Limited is Human Resources Management, Training Services and Strategy Consulting practice based in Lagos. We are propelled by and founded upon about many years of collective industry experience and a deployment of technology and technical competence to solve the knottiest challenges a company’s management faces.
+        We are a company incorporated to help discerning businesses bridge the gap between their status quo and where they want to be in human capital terms and business strategy execution. Our interventions address the needs of companies who want to optimize performance and get value for their human capital development budget. Our solutions address the knottiest of human capital and strategy challenges both in the public and private sectors. 
+        Our approach is to do little things well because we believe that it is the little things done well that aggregate to form the whole of the structure that others see and come to like and patronize. So, we pay attention to details without losing sight of the larger goal/objective or the big picture that is to be achieved.</p>
+      </div>
+      <div class="advantage">
+         <h3>THE GULFBRIDGE ADVANTAGE</h3>
+        <p>We are extremely agile/responsive organization run by passionate HR and business professionals with combine hands-on experience of about many years, cutting across industry lines – Hospitality & Tourism, Telecommunications, Real Estates, Aviation, Financial Services, Consulting, Oil & Gas, Not-For-Profit, Information Technology, Engineering, Media, etc.
+        Our people are carefully selected and have high sense of duty and responsibility. We are professional and absolutely up-to-date with the latest HR issues, debates, development and concepts. With our monthly day-long conference, we are able to keep our people top notch and smoothen out rough edges, all in the process of serving you better.
+        We are absolutely professional and will not in any way or form, use information or material obtained or gathered from you, to the detriment of your organization. We will be ready to execute a non-disclosure agreement with your company.</p>
+      </div>
+      <div class="img-one">
+        <img src="../assets/Img1.svg" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="container-three">
+      <div class="service">
+        <h3>OUR SERVICE</h3>
+        <ul>
+          <li>HR Advisory</li>
+          <li>Service Design</li>
+          <li>Business Strategy Implementation</li>
+          <li>Training & Development</li>
+          <li>Recruitment Services</li>
+          <li>Customer Attention, Retention & Experience (CARE) Services</li>
+          <li>Outsourcing Services</li>
+        </ul>
+      </div>
+      <div class="how">
+        <h3>HOW WE SERVE YOU</h3>
+        <p>We start our engagement with you, our valued client, with thorough understanding of your business (strategy and operating model) and its need(s), with which we will formulate your recruitment, training and other needs, as agreed, and we work from there.
+        A staff will be dedicated to liaise with you with a dual reporting line to you and to one of our Senior Consultants to you, so that you are kept abreast of the emerging issues and what we have done or intend to do about them.
+        Critical issues like recruitment and other activities that have financial actions will still be subject to your approval. Regular meetings at predetermined intervals will help keep you up to date on all issues outsourced to us so that you can devote a higher percentage of your time to other core HR issues.</p>
+      </div>
+      <div class="img-2">
+        <img src="../assets/Img2.svg" alt="" srcset="">
+      </div>
+    </div>
+    <div class="footer">
+      <div class="logo2">
+        <img src="../assets/gb-logo.svg" alt="" srcset="">
+      </div>
+      
+      <div class="addy">
+        <p>  <strong> 5, Shakiru Adeoye Street, Ogudu, Lagos.<br>
+            +234 807 777 6770 | +234 806 462 7196<br>
+            connect@gulfbridgeconsulting.com </strong><br></p>
+      </div>
+      <div class="iconics">
+         <img class="icon" src="../assets/twitter-brands.svg" alt="" srcset="">
+          <img class="icon" src="../assets/facebook-f-brands.svg" alt="" srcset="">
+          <img  class="icon" src="../assets/instagram-brands.svg" alt="" srcset="">
+          <a href=""><img  class="icon" src="../assets/linkedin-in-brands.svg" alt="" srcset=""></a> 
+          <a href=""><img  class="icon" src="../assets/medium-m-brands.svg" alt="" srcset=""></a>
+      </div>
+      <p class="copy"> <strong>&copy; 2020 Gulfbridge Consulting Limited </strong></p>
+    </div>
   </div>
 </template>
 
@@ -104,10 +163,134 @@ export default {
   .icons {
     width: 12px;
     padding: 10px 10px;
-    margin-top: 60px;
+    margin-top: 80px;
     color: #33a0ba;
   }
 }
 
+.container-two {
+  display : grid;
+  padding: 50px 60px;
+  grid-template-areas:
+  'myabout myabout  myimg myimg'
+  'myabout myabout  myimg myimg'
+  'myad myad  myad myad';
+  grid-gap: 20px;
+  text-align: justify; 
+
+  h3 {
+    color: #1b3164;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-bottom: #fcb9b2 solid 2px ;
+    padding:5px;
+  }
+  p {
+    font-size: 14px;
+    color: #33a0ba;
+    letter-spacing: 1px;
+    line-height: 22px;
+  }
+
+  .about-us {
+    grid-area: myabout ;
+  }
+  .advantage {
+    grid-area: myad;
+  }
+  .img-one{
+    grid-area: myimg;
+    width: 800px;
+    margin-top: 60px;
+  }
+}
+
+.container-three {
+  display : grid;
+  background-color:#33a0ba;
+  padding:50px 60px;
+  text-align: justify;
+  grid-template-areas: 
+  'myservice myservice myimg2 myimg2'
+  'myservice myservice myimg2 myimg2'
+  'myhow myhow  myimg2 myimg2'
+  'myhow myhow myimg2 myimg2';
+  grid-gap: 20px;
+
+  h3 {
+    color: #1b3164;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding:5px;
+  }
+  ul {
+    margin-top : 15px;
+    color: white;
+  }
+  li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 22px;
+  }
+  .service {
+    grid-area: myservice;
+  }
+  .how {
+    grid-area: myhow;
+  }
+  .img-2 {
+    grid-area: myimg2;
+    width: 700px;
+  } 
+}
+
+.footer {
+  display: grid;
+  padding: 0px 60px;
+  height : 20vh;
+  background-image: url('../assets/footerBg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-template-areas: 'myaddy mycopy  myicon mylogo2';
+  align-content: center;
+  justify-content: space-around;
+
+  .logo2 {
+    width:60px;
+    grid-area: mylogo2;
+    align-self:end;
+  }
+  .iconics {
+    grid-area: myicon;
+    align-self:end;
+    .icon {
+      width: 12px;
+      padding: 10px 10px;
+      color: #33a0ba;
+      
+    }
+  }
+  .addy {
+    grid-area: myaddy;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 5px;
+  }
+  .copy {
+    grid-area: mycopy;
+    align-self:end;
+  }
+}
 
 </style>
