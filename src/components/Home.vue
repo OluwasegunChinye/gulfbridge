@@ -117,7 +117,7 @@ export default {
 
   ul li {
     float : right;
-    margin: 29px 32px 0px 0px ;
+    margin: 26px 32px 0px 0px ;
 
   }
   ul li a {
@@ -180,7 +180,7 @@ export default {
 
   h3 {
     color: #1b3164;
-    display: inline;
+    display: inline-block;
     font-size: 20px;
     letter-spacing: 2px;
     border-bottom: #fcb9b2 solid 2px ;
@@ -284,13 +284,17 @@ export default {
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 1px;
-    color: black;
+    color:#1b3164;
     margin-top: 5px;
   }
   .copy {
     grid-area: mycopy;
     align-self:end;
+    color: #1b3164;
   }
 }
+
+
+/* styling for Media query below*/
 
 </style>
