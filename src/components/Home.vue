@@ -361,7 +361,8 @@ export default {
     'myimg'
     'myad';
     grid-gap: 5px;
-    text-align: justify; 
+    text-align: justify;
+    margin-top: 100px; 
     
 
     h3 {
@@ -369,7 +370,7 @@ export default {
       display: inline-block;
       font-size: 45px;
       letter-spacing: 1px;
-      border-bottom: red solid 2px ;
+      border-bottom: red solid 4px ;
       padding:10px;
       font-weight: bolder;
     }
@@ -390,7 +391,7 @@ export default {
     .img-one{
       grid-area: myimg;
       width: 760px;
-      margin-top: 0px;
+      margin: 100px 0px 100px 0px;
       padding: 20px 0px;
     }
   }
@@ -439,16 +440,18 @@ export default {
     .service {
       grid-area: myservice;
       background-color:#ffff;
-      margin-top: 60px;
+      margin: 80px 0px 80px 0px;
      
     }
     .how {
       grid-area: myhow;
       background-color:#ffff;
+      margin-bottom: 80px;
     }
     .img-2 {
       grid-area: myimg2;
       width: 800px;
+      margin: 100px 0px 100px 0px;
     } 
   }
 
