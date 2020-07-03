@@ -65,6 +65,7 @@
         <img src="../assets/Img2.svg" alt="" srcset="">
       </div>
     </div>
+
     <div class="footer">
       <div class="logo2">
         <img src="../assets/gb-logo.svg" alt="" srcset="">
@@ -79,8 +80,8 @@
          <img class="icon" src="../assets/twitter-brands.svg" alt="" srcset="">
           <img class="icon" src="../assets/facebook-f-brands.svg" alt="" srcset="">
           <img  class="icon" src="../assets/instagram-brands.svg" alt="" srcset="">
-          <a href=""><img  class="icon" src="../assets/linkedin-in-brands.svg" alt="" srcset=""></a> 
-          <a href=""><img  class="icon" src="../assets/medium-m-brands.svg" alt="" srcset=""></a>
+          <a href="#"><img  class="icon" src="../assets/linkedin-in-brands.svg" alt="" srcset=""></a> 
+          <a href="#"><img  class="icon" src="../assets/medium-m-brands.svg" alt="" srcset=""></a>
       </div>
       <p class="copy"> <strong>&copy; 2020 Gulfbridge Consulting Limited </strong></p>
     </div>
@@ -296,5 +297,207 @@ export default {
 
 
 /* styling for Media query below*/
+
+@media only screen and (max-device-width: 1024px) {
+
+  .container-one {
+    background-image: url("../assets/mobileBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 1600px;
+    
+    .logo {
+      display: none;
+      width: 190px;
+      top: 340px;
+      left: 12%;
+    }
+    ul li:not(.gb) {
+      display: none;
+    }
+
+
+    .gb {
+      display: none;
+      margin-left:50px;
+      margin-top: 490px;
+      font-size: 50px;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      color:#1b3164;
+    }
+    .sub1 {
+      display: none;
+      position: absolute;
+      top: 36%;
+      left: 5%;
+      text-align: start;
+    }
+    .sub2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #33a0ba;
+      letter-spacing: 3px;
+    }
+    .sub3 {
+      font-size: 14px;
+      letter-spacing: 1px;
+      font-weight: bold;
+      line-height: 30px;
+      color: #33a0ba;
+    }
+    .icons {
+    display: none;
+    }
+  }
+
+
+  .container-two {
+    display : grid;
+    grid-template-areas:
+    'myabout'
+    'myimg'
+    'myad';
+    grid-gap: 5px;
+    text-align: justify; 
+    
+
+    h3 {
+      color: #1b3164;
+      display: inline-block;
+      font-size: 45px;
+      letter-spacing: 1px;
+      border-bottom: red solid 2px ;
+      padding:10px;
+      font-weight: bolder;
+    }
+    p {
+      font-size: 35px;
+      color: #1b3164;
+      letter-spacing: 1px;
+      line-height: 70px;
+      font-weight: bold;
+    }
+
+    .about-us {
+      grid-area: myabout ;
+    }
+    .advantage {
+      grid-area: myad;
+    }
+    .img-one{
+      grid-area: myimg;
+      width: 760px;
+      margin-top: 0px;
+      padding: 20px 0px;
+    }
+  }
+
+
+  .container-three {
+    display : grid;
+    background-color:#ffff;
+    text-align: justify;
+    grid-template-areas: 
+    'myimg2'
+    'myservice'
+    'myhow';
+    grid-gap: 0px;
+    font-weight: bold;
+
+    h3 {
+      color: #1b3164;
+      display: inline-block;
+      font-size: 45px;
+      letter-spacing: 2px;
+      border-bottom: red solid 2px ;
+      padding:10px;
+      font-weight: bolder;
+      margin-top: 30px;
+    }
+    ul {
+      margin-top : 15px;
+      color: #1b3164
+    }
+    li {
+      padding: 10px;
+      font-size: 35px;
+      text-align: start;
+      list-style: spacing 1px;
+      line-height:70px;
+    }
+
+    p {
+      font-size: 35px;
+      color: #1b3164;
+      letter-spacing: 1px;
+      line-height: 70px;
+      
+    }
+    .service {
+      grid-area: myservice;
+      background-color:#ffff;
+      margin-top: 60px;
+     
+    }
+    .how {
+      grid-area: myhow;
+      background-color:#ffff;
+    }
+    .img-2 {
+      grid-area: myimg2;
+      width: 800px;
+    } 
+  }
+
+    
+  .footer {
+    display: grid;
+    padding: 10px 15px;
+    height : 350px;
+    width: 800px;
+    background-image: url('../assets/footerBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-areas: 
+    'myaddy' 
+    'myicon'
+    'mycopy';
+    justify-content:start;
+
+    .logo2 {
+      display:none;
+     
+    }
+    .iconics {
+      grid-area: myicon;
+      margin-left: 1px;
+
+      .icon {
+        width: 25px;
+        padding: 0px 10px;
+      }
+    }
+    .addy {
+      grid-area: myaddy;
+      font-size: 31px;
+      line-height: 50px;
+      letter-spacing: 1px;
+      color:#1b3164;
+      margin-top: 0px;
+      font-weight: bold;
+    }
+    .copy {
+      grid-area: mycopy;
+      color:#1b3164;
+      font-size: 31px;
+      padding: 0px 0px;
+      font-weight: bold;
+    }
+  }
+}
 
 </style>
