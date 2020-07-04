@@ -62,7 +62,7 @@
         Critical issues like recruitment and other activities that have financial actions will still be subject to your approval. Regular meetings at predetermined intervals will help keep you up to date on all issues outsourced to us so that you can devote a higher percentage of your time to other core HR issues.</p>
       </div>
       <div class="img-2">
-        <img src="../assets/Img2.svg" alt="" srcset="">
+        <img src="../assets/Img22.svg" alt="" srcset="">
       </div>
     </div>
 
@@ -301,7 +301,7 @@ export default {
 @media only screen and (max-device-width: 1024px) {
 
   .container-one {
-    background-image: url("../assets/mobileBg.svg");
+    background-image: url("../assets/GCMobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
