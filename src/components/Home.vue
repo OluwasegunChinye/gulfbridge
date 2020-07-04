@@ -62,7 +62,7 @@
         Critical issues like recruitment and other activities that have financial actions will still be subject to your approval. Regular meetings at predetermined intervals will help keep you up to date on all issues outsourced to us so that you can devote a higher percentage of your time to other core HR issues.</p>
       </div>
       <div class="img-2">
-        <img src="../assets/img2.svg" alt="" srcset="">
+        <img src="../assets/Img2.svg" alt="" srcset="">
       </div>
     </div>
 
