@@ -27,13 +27,14 @@
     <div class="container-two">
       <div class="about-us">
         <h3>ABOUT US</h3>
-        <p>Gulfbridge Consulting Limited is a Human Resources Management, Training Services and Strategy Consulting practice based in Lagos, Nigeria. We are founded upon years of multi-sector engagement with topnotch brands with heavy realiance on technology and up-to-date technical competence to solve a business' people problems.
-        We are a company incorporated to help businesses bridge the gap between the status quo and where they aspire to be strategy-wise, by ensuring that its people are given the tools and competences to execute their strategy per time. Our interventions address the people needs of organizations that want to optimize performance and get greater returns for their human capital spend whilst tracking the right metrics. Our solutions address the knottiest of human capital and strategy challenges both in the public and private sectors. 
-        Our approach is to do little things well. We firmly believe that it is little things done well that stack up to form the solid entity that stakeholders come to trust and engage with. So, we pay premium attention to detail and systematically build to the big picture.</p>
+        <p class="pp">Gulfbridge Consulting Limited is a Human Resources Management, Training Services and Strategy Consulting practice based in Lagos, Nigeria. We are founded upon years of multi-sector engagement with topnotch brands with heavy realiance on technology and up-to-date technical competence to solve a business' people problems.</p>
+        <p class="pp">We are a company incorporated to help businesses bridge the gap between the status quo and where they aspire to be strategy-wise, by ensuring that its people are given the tools and competences to execute their strategy per time. Our interventions address complex people needs of organizations that want to optimize performance and get greater returns for their human capital spend whilst tracking the right metrics. 
+        Our solutions address the knottiest of human capital and strategy challenges both in the public and private sectors. </p>
+        <p class="pp"> Our approach is to do little things well. We firmly believe that it is little things done well that stack up to form the solid entity that stakeholders come to trust and engage with. So, we pay premium attention to detail and systematically build to the big picture.</p>
       </div>
       <div class="advantage">
          <h3>THE GULFBRIDGE ADVANTAGE</h3>
-        <p>We are an extremely agile organization run by passionate HR and Business Professionals with many years hands-on experience, cutting across different sectors – Hospitality & Tourism, Telecommunications, Real Estates, Aviation, Financial Services, Consulting, Not-For-Profit, Information Technology, Engineering, Media, etc.
+        <p class="pp">We are an extremely agile organization run by passionate HR and Business Professionals with many years hands-on experience, cutting across different sectors – Hospitality & Tourism, Telecommunications, Real Estates, Aviation, Financial Services, Consulting, Not-For-Profit, Information Technology, Engineering, Media, etc.
         Our people are carefully selected and have high sense of responsibility. We are professional & up-to-date with the latest HR issues, debates, development and concepts. With our monthly day-long conference, we keep our people relevant, all in the process of serving you better.</p>
       </div>
       <div class="img-one">
@@ -187,7 +188,7 @@ export default {
     border-bottom: #fcb9b2 solid 2px ;
     padding:5px;
   }
-  p {
+  .pp {
     font-size: 14px;
     color: #33a0ba;
     letter-spacing: 1px;
@@ -374,7 +375,7 @@ export default {
       padding:10px;
       font-weight: bolder;
     }
-    p {
+    .pp {
       font-size: 35px;
       color: #1b3164;
       letter-spacing: 1px;
