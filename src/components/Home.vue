@@ -15,7 +15,7 @@
       <div class="sub1">
         <p class="sub2">WE ARE THE BEST AT</p>
         <p class="sub3">HR Advisory, Training, Recruitment and providing <br>
-           Professional HR management services to suit <br>
+           Professional HR Management & Advisory Services to suit <br>
            your unique operations. </p>
            <img class="icons" src="../assets/twitter-brands.svg" alt="" srcset="">
            <img class="icons" src="../assets/facebook-f-brands.svg" alt="" srcset="">
@@ -27,15 +27,14 @@
     <div class="container-two">
       <div class="about-us">
         <h3>ABOUT US</h3>
-        <p>Gulfbridge Consulting Limited is Human Resources Management, Training Services and Strategy Consulting practice based in Lagos. We are propelled by and founded upon about many years of collective industry experience and a deployment of technology and technical competence to solve the knottiest challenges a company’s management faces.
-        We are a company incorporated to help discerning businesses bridge the gap between their status quo and where they want to be in human capital terms and business strategy execution. Our interventions address the needs of companies who want to optimize performance and get value for their human capital development budget. Our solutions address the knottiest of human capital and strategy challenges both in the public and private sectors. 
-        Our approach is to do little things well because we believe that it is the little things done well that aggregate to form the whole of the structure that others see and come to like and patronize. So, we pay attention to details without losing sight of the larger goal/objective or the big picture that is to be achieved.</p>
+        <p>Gulfbridge Consulting Limited is a Human Resources Management, Training Services and Strategy Consulting practice based in Lagos, Nigeria. We are founded upon years of multi-sector engagement with topnotch brands with heavy realiance on technology and up-to-date technical competence to solve a business' people problems.
+        We are a company incorporated to help businesses bridge the gap between the status quo and where they aspire to be strategy-wise, by ensuring that its people are given the tools and competences to execute their strategy per time. Our interventions address the people needs of organizations that want to optimize performance and get greater returns for their human capital spend whilst tracking the right metrics. Our solutions address the knottiest of human capital and strategy challenges both in the public and private sectors. 
+        Our approach is to do little things well. We firmly believe that it is little things done well that stack up to form the solid entity that stakeholders come to trust and engage with. So, we pay premium attention to detail and systematically build to the big picture.</p>
       </div>
       <div class="advantage">
          <h3>THE GULFBRIDGE ADVANTAGE</h3>
-        <p>We are extremely agile/responsive organization run by passionate HR and business professionals with combine hands-on experience of about many years, cutting across industry lines – Hospitality & Tourism, Telecommunications, Real Estates, Aviation, Financial Services, Consulting, Oil & Gas, Not-For-Profit, Information Technology, Engineering, Media, etc.
-        Our people are carefully selected and have high sense of duty and responsibility. We are professional and absolutely up-to-date with the latest HR issues, debates, development and concepts. With our monthly day-long conference, we are able to keep our people top notch and smoothen out rough edges, all in the process of serving you better.
-        We are absolutely professional and will not in any way or form, use information or material obtained or gathered from you, to the detriment of your organization. We will be ready to execute a non-disclosure agreement with your company.</p>
+        <p>We are an extremely agile organization run by passionate HR and Business Professionals with many years hands-on experience, cutting across different sectors – Hospitality & Tourism, Telecommunications, Real Estates, Aviation, Financial Services, Consulting, Not-For-Profit, Information Technology, Engineering, Media, etc.
+        Our people are carefully selected and have high sense of responsibility. We are professional & up-to-date with the latest HR issues, debates, development and concepts. With our monthly day-long conference, we keep our people relevant, all in the process of serving you better.</p>
       </div>
       <div class="img-one">
         <img src="../assets/Img1.svg" alt="" srcset="">
@@ -51,15 +50,16 @@
           <li>Business Strategy Implementation</li>
           <li>Training & Development</li>
           <li>Recruitment Services</li>
-          <li>Customer Attention, Retention & Experience (CARE) Services</li>
+          <li>SME HR Toolkit</li>
+          <li>Customer Attention, Retention & Experience (CARE) Services for SMEs</li>
           <li>Outsourcing Services</li>
         </ul>
       </div>
       <div class="how">
         <h3>HOW WE SERVE YOU</h3>
-        <p>We start our engagement with you, our valued client, with thorough understanding of your business (strategy and operating model) and its need(s), with which we will formulate your recruitment, training and other needs, as agreed, and we work from there.
-        A staff will be dedicated to liaise with you with a dual reporting line to you and to one of our Senior Consultants to you, so that you are kept abreast of the emerging issues and what we have done or intend to do about them.
-        Critical issues like recruitment and other activities that have financial actions will still be subject to your approval. Regular meetings at predetermined intervals will help keep you up to date on all issues outsourced to us so that you can devote a higher percentage of your time to other core HR issues.</p>
+        <p>We start our engagement with you, our valued client, with a thorough understanding of your business (strategy, operating model, etc.) and its need(s). We naturally prefer to start with a brief from you to us but where that is not possible for whatever reasons, we will come in to gather information ourselves by carrying out surveys and other information gathering tools. With this knowledge, we formulate your recruitment, training and other needs, seek your approval to our proposed interventions, and we work from there by giving you a project plan.</p>
+        <p>A staff is dedicated to liaise with you, so that you are kept abreast of the emerging issues and what we have done or intend to do about them.
+        Critical issues like recruitment and other activities that have financial actions will be subject to your approval. Regular meetings at predetermined intervals will help keep you up to date on all critical aspects of issues outsourced to us so that you can devote a higher percentage of your time to other core HR issues.</p>
       </div>
       <div class="img-2">
         <img src="../assets/Img2.svg" alt="" srcset="">
@@ -73,7 +73,7 @@
       
       <div class="addy">
         <p>  <strong> 5, Shakiru Adeoye Street, Ogudu, Lagos.<br>
-            +234 807 777 6770 | +234 806 462 7196<br>
+            +234 807 777 6770 | +234 812 695 2210<br>
             connect@gulfbridgeconsulting.com </strong><br></p>
       </div>
       <div class="iconics">
